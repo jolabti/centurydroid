@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Century</string>
+    <string name="label_pesan_login">Selamat datang di Century Park Hotel</string>
+    <string name="label_pesan_forgot">Masukkan Email, Kami akan kirimkan Link Reset Password</string>
+</resources>

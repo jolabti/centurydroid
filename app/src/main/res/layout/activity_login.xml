@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--    Logo Century     -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo_century_park"></androidx.appcompat.widget.AppCompatImageView>
+
+        </LinearLayout>
+        <!--  Tutup untuk Logo Century       -->
+
+
+        <!--  Label Login Pesan Welcome      -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo_century_park"
+                android:text="@string/label_pesan_login"
+                android:textSize="14sp"></androidx.appcompat.widget.AppCompatTextView>
+
+        </LinearLayout>
+
+        <!--        -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatEditText
+
+                android:id="@+id/ed_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Email"
+                android:src="@mipmap/logo_century_park"
+                android:textColorHint="#3D3C3C"
+                android:textSize="14sp"
+
+                >
+
+            </androidx.appcompat.widget.AppCompatEditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ed_passwrod_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:src="@mipmap/logo_century_park"
+                android:textColorHint="#3D3C3C"
+                android:textSize="14sp"
+
+                >
+
+            </androidx.appcompat.widget.AppCompatEditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="right">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_forgot_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:text="Forgot Password ?"
+
+                android:textColorHint="#3D3C3C"
+                android:textSize="12sp">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:id="@+id/button_login_id"
+
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:textColor="#ffffff"
+                android:background="@color/colorButtonPrimary"
+
+                android:layout_weight="0.5"
+                android:textSize="12sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_signup_id"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/colorButtonSecondary"
+                android:text="SIGN Up"
+                android:layout_margin="10dp"
+                android:textColor="#3D3C3C"
+                android:textSize="12sp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
